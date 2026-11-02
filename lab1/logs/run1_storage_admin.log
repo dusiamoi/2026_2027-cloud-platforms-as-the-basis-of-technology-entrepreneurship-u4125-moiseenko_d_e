@@ -1,0 +1,20 @@
+===== LAB1 RUN Mon Nov  2 13:06:53 UTC 2026 =====
+--- active account (service account) ---
+dmoiseenko-sa-lab1@cloud-platforms-as-the-basis.iam.gserviceaccount.com
+--- gcloud storage ls gs://lab1-bucket-itmo ---
+gs://lab1-bucket-itmo/pic1.jpg
+gs://lab1-bucket-itmo/pic2.jpg
+gs://lab1-bucket-itmo/pic3.jpeg
+--- copy 3 files ---
+Copying gs://lab1-bucket-itmo/pic1.jpg to file:///home/lab1/pic1.jpg
+Copying gs://lab1-bucket-itmo/pic2.jpg to file:///home/lab1/pic2.jpg
+Copying gs://lab1-bucket-itmo/pic3.jpeg to file:///home/lab1/pic3.jpeg
+Average throughput: 22.6MiB/s
+--- ls -lah /home/lab1 ---
+total 1.6M
+drwxr-xr-x 2 root root 4.0K Nov  2 13:07 .
+drwxr-xr-x 6 root root 4.0K Nov  2 13:06 ..
+-rw-r--r-- 1 root root 228K Nov  2 13:07 pic1.jpg
+-rw-r--r-- 1 root root 487K Nov  2 13:07 pic2.jpg
+-rw-r--r-- 1 root root 858K Nov  2 13:07 pic3.jpeg
+===== LAB1 END =====

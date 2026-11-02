@@ -1,0 +1,20 @@
+===== LAB1 RUN Mon Nov  2 13:33:12 UTC 2026 =====
+--- active account ---
+dmoiseenko-sa-lab1@cloud-platforms-as-the-basis.iam.gserviceaccount.com
+--- [1] copy 3 files from gs://lab1-bucket-itmo ---
+Copying gs://lab1-bucket-itmo/pic1.jpg to file:///home/lab1/pic1.jpg
+Copying gs://lab1-bucket-itmo/pic2.jpg to file:///home/lab1/pic2.jpg
+Copying gs://lab1-bucket-itmo/pic3.jpeg to file:///home/lab1/pic3.jpeg
+Average throughput: 29.0MiB/s
+total 1.6M
+drwxr-xr-x 2 root root 4.0K Nov  2 13:33 .
+drwxr-xr-x 6 root root 4.0K Nov  2 13:06 ..
+-rw-r--r-- 1 root root 228K Nov  2 13:33 pic1.jpg
+-rw-r--r-- 1 root root 487K Nov  2 13:33 pic2.jpg
+-rw-r--r-- 1 root root 858K Nov  2 13:33 pic3.jpeg
+--- [2] list project buckets (needs storage.buckets.list) ---
+gs://lab1-bucket-itmo/
+--- [3] list VMs (needs compute.instances.list) ---
+WARNING: Some requests did not succeed.
+ - Required 'compute.instances.list' permission for 'projects/cloud-platforms-as-the-basis'
+===== LAB1 END =====
