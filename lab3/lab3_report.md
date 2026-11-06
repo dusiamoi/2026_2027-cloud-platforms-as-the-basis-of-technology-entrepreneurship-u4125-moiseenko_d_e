@@ -6,7 +6,7 @@ Group: U4125
 Author: Moiseenko Daria Evgenievna
 Lab: Lab3
 Date of create: 02.11.2026
-Date of finished: —
+Date of finished: 02.11.2026
 
 # Лабораторная работа №3 «Исследование Cloud Storage»
 
