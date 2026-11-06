@@ -6,7 +6,7 @@ Group: U4125
 Author: Moiseenko Daria Evgenievna
 Lab: Lab2
 Date of create: 02.11.2026
-Date of finished: —
+Date of finished: 02.11.2026
 
 # Лабораторная работа №2 «Исследование Cloud Run»
 
