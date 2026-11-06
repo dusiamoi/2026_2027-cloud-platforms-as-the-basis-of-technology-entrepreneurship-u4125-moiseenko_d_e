@@ -15,9 +15,11 @@
 | 1 | Обзор Google Cloud и исследование основных сервисов (IAM, Compute Engine, Cloud Storage) | [lab1/lab1_report.md](lab1/lab1_report.md) | выполнена |
 | 2 | Исследование Cloud Run | [lab2/lab2_report.md](lab2/lab2_report.md) | выполнена |
 | 3 | Исследование Cloud Storage | [lab3/lab3_report.md](lab3/lab3_report.md) | выполнена |
+| 4 | Схема и экономика инфраструктуры AI-приложения «ЧекСкан» (3 этапа, draw.io) | [lab4/lab4_report.md](lab4/lab4_report.md) | выполнена |
 
 ## Заметки
 
 * Все ресурсы созданы с префиксом `dmoiseenko-` и после выполнения каждой работы удалены.
 * Лаба 1: бакет `lab1-bucket-itmo` публичный (`allUsers` → Storage Object Viewer), поэтому чтение из него работает при любой роли сервисного аккаунта. Разница между Storage Admin и Compute Viewer показана на операциях `storage.buckets.list` и `compute.instances.list`.
 * Лаба 2: для разделения трафика между N ревизиями max instances сервиса должно быть не меньше N.
+* Лаба 4: кейс выбран самостоятельно — сканер чеков «ЧекСкан». Расчёт воспроизводится командой `python3 lab4/cost_model.py`, схемы — `python3 lab4/diagrams/make_diagrams.py`.
