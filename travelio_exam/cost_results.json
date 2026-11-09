@@ -1,0 +1,26 @@
+{
+  "pilot": {
+    "mau": 1000,
+    "searches_per_month": 20000,
+    "subtotal_usd_month": 94,
+    "reserve_20pct_usd_month": 18.8,
+    "budget_usd_month": 112.8,
+    "cost_per_1000_searches_usd": 4.7
+  },
+  "partners": {
+    "mau": 20000,
+    "searches_per_month": 400000,
+    "subtotal_usd_month": 608,
+    "reserve_20pct_usd_month": 121.6,
+    "budget_usd_month": 729.6,
+    "cost_per_1000_searches_usd": 1.52
+  },
+  "production": {
+    "mau": 200000,
+    "searches_per_month": 4000000,
+    "subtotal_usd_month": 2460,
+    "reserve_20pct_usd_month": 492,
+    "budget_usd_month": 2952,
+    "cost_per_1000_searches_usd": 0.615
+  }
+}
